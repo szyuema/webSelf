@@ -1,0 +1,38 @@
+body,
+html {
+    font-weight: 200;
+    font-family: 'PingFang SC'
+}
+/*清除浮动 父级添加样式*/
+.clearfix {
+    display: inline-block;
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    content: ".";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/*清除浮动 父级添加样式*/
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*清除浮动1 父级添加样式*/
+.clear1 {
+    overflow: hidden;
+}
+
+
+/*清除浮动2 在结尾处：添加标签并设置样式 */
+.clear2 {
+    clear: both;
+}
